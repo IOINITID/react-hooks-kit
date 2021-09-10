@@ -1,4 +1,4 @@
-Project name: **React Hooks Kit**
+![logo](logo.svg)
 
 [![npm version](https://badge.fury.io/js/react-hooks-kit.svg)](https://badge.fury.io/js/react-hooks-kit)
 ![npm](https://img.shields.io/npm/dw/react-hooks-kit)
