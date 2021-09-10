@@ -22,7 +22,15 @@ Or install from yarn:
 yarn add react-hooks-kit
 ```
 
+Available hooks:
+
+```
+useRenderCount, useModalState
+```
+
 After that, you need to import the package into your project:
+
+useRenderCount hook:
 
 ```
 import { useRenderCount } from 'react-hooks-kit';
@@ -31,9 +39,23 @@ import { useRenderCount } from 'react-hooks-kit';
 How to use it:
 
 ```
-const {renderCount} = useRenderCount(); // 1.
+const { renderCount } = useRenderCount(); // 1.
 
-const {renderCount} = useRenderCount('App'); // (App) component renders: 1;
+const { renderCount } = useRenderCount('App'); // (App) component renders: 1;
+```
+
+useModalState hook:
+
+```
+import { useModalState } from 'react-hooks-kit';
+```
+
+How to use it:
+
+```
+const { isOpen, onToggle } = useModalState();
+
+<Modal isOpen={isOpen} onClick={onToggle} />
 ```
 
 ## Thanks for using this library.
