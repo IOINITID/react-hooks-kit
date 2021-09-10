@@ -1,0 +1,35 @@
+{
+  "name": "react-hooks-kit",
+  "version": "1.0.0",
+  "description": "React Hooks Kit - a set of useful functions for working with the React application.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "prebuild": "rm -rf ./dist",
+    "build": "yarn run prebuild && tsc && cp ./package.json ./dist && cp ./changelog.md ./dist && cp ./license.md ./dist && cp ./readme.md ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IOINITID/react-hooks-kit.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Hooks"
+  ],
+  "author": "Igor Orishchenko <ioinitid@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IOINITID/react-hooks-kit/issues"
+  },
+  "homepage": "https://github.com/IOINITID/react-hooks-kit#readme",
+  "peerDependencies": {
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.20",
+    "react": "^17.0.2",
+    "typescript": "^4.4.2"
+  }
+}
