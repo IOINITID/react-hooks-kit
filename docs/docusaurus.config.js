@@ -15,6 +15,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     organizationName: 'facebook', // Usually your GitHub org/user name.
     projectName: 'docusaurus', // Usually your repo name.
 
+    i18n: {
+      defaultLocale: 'en',
+      locales: ['en', 'ru'],
+    },
+
     presets: [
       [
         '@docusaurus/preset-classic',
@@ -50,15 +55,23 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             {
               type: 'doc',
               docId: 'intro',
-              position: 'left',
+              position: 'right',
               label: 'Tutorial',
             },
-            { to: '/blog', label: 'Blog', position: 'left' },
             {
-              href: 'https://github.com/facebook/docusaurus',
-              label: 'GitHub',
+              type: 'localeDropdown',
               position: 'right',
             },
+            // {
+            //   to: '/blog',
+            //   label: 'Blog',
+            //   position: 'right',
+            // },
+            // {
+            //   href: 'https://github.com/facebook/docusaurus',
+            //   label: 'GitHub',
+            //   position: 'right',
+            // },
           ],
         },
         footer: {
