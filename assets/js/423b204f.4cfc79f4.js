@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[470],{9270:function(t){t.exports=JSON.parse('{"allTagsPath":"https://ioinitid.github.io/react-hooks-kit/blog/tags","slug":"https://ioinitid.github.io/react-hooks-kit/blog/tags/hello","name":"hello","count":2,"permalink":"https://ioinitid.github.io/react-hooks-kit/blog/tags/hello"}')}}]);
