@@ -5,8 +5,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (
   module.exports = {
-    title: 'My Site',
-    tagline: 'Dinosaurs are cool',
+    title: 'React Hooks Kit',
+    tagline: 'Set of useful functions for working with the React application',
     url: 'https://ioinitid.github.io',
     baseUrl: '/react-hooks-kit/',
     onBrokenLinks: 'throw',
@@ -46,17 +46,17 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
       ({
         navbar: {
-          title: 'My Site',
+          title: 'React Hooks Kit',
           logo: {
-            alt: 'My Site Logo',
-            src: 'img/logo.svg',
+            alt: 'React Hooks Kit logo',
+            src: 'img/react-hooks-kit-logo.svg',
           },
           items: [
             {
               type: 'doc',
               docId: 'intro',
               position: 'right',
-              label: 'Tutorial',
+              label: 'Docs',
             },
             {
               type: 'localeDropdown',
@@ -67,57 +67,59 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             //   label: 'Blog',
             //   position: 'right',
             // },
-            // {
-            //   href: 'https://github.com/facebook/docusaurus',
-            //   label: 'GitHub',
-            //   position: 'right',
-            // },
+            {
+              href: 'https://github.com/IOINITID/react-hooks-kit',
+              // label: 'GitHub',
+              position: 'right',
+              className: 'header-github-link',
+              'aria-label': 'GitHub repository',
+            },
           ],
         },
         footer: {
           style: 'dark',
           links: [
-            {
-              title: 'Docs',
-              items: [
-                {
-                  label: 'Tutorial',
-                  to: '/docs/intro',
-                },
-              ],
-            },
-            {
-              title: 'Community',
-              items: [
-                {
-                  label: 'Stack Overflow',
-                  href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-                },
-                {
-                  label: 'Discord',
-                  href: 'https://discordapp.com/invite/docusaurus',
-                },
-                {
-                  label: 'Twitter',
-                  href: 'https://twitter.com/docusaurus',
-                },
-              ],
-            },
-            {
-              title: 'More',
-              items: [
-                {
-                  label: 'Blog',
-                  to: '/blog',
-                },
-                {
-                  label: 'GitHub',
-                  href: 'https://github.com/facebook/docusaurus',
-                },
-              ],
-            },
+            // {
+            //   title: 'Docs',
+            //   items: [
+            //     {
+            //       label: 'Tutorial',
+            //       to: '/docs/intro',
+            //     },
+            //   ],
+            // },
+            // {
+            //   title: 'Community',
+            //   items: [
+            //     // {
+            //     //   label: 'Stack Overflow',
+            //     //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+            //     // },
+            //     // {
+            //     //   label: 'Discord',
+            //     //   href: 'https://discordapp.com/invite/docusaurus',
+            //     // },
+            //     // {
+            //     //   label: 'Twitter',
+            //     //   href: 'https://twitter.com/docusaurus',
+            //     // },
+            //   ],
+            // },
+            // {
+            //   title: 'More',
+            //   items: [
+            //     // {
+            //     //   label: 'Blog',
+            //     //   to: '/blog',
+            //     // },
+            //     {
+            //       label: 'GitHub',
+            //       href: 'https://github.com/facebook/docusaurus',
+            //     },
+            //   ],
+            // },
           ],
-          copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+          copyright: `Copyright © ${new Date().getFullYear()} React Hooks Kit. Built with Docusaurus.`,
         },
         prism: {
           theme: lightCodeTheme,
