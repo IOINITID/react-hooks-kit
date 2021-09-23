@@ -20,29 +20,20 @@ const FeatureList: FeatureItem[] = [
     image: '/react-hooks-kit/img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and used to get your website up and running
-        quickly.
+        The library has no third-party dependencies and is easy to implement. You can see the source code of all hooks.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'TypeScript support',
     image: '/react-hooks-kit/img/undraw_docusaurus_tree.svg',
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go ahead and move your docs into the{' '}
-        <code>docs</code> directory.
-      </>
-    ),
+    description: <>It is also completely written in TypeScript, will be useful for those who use typing.</>,
   },
   {
     title: 'Powered by React',
     image: '/react-hooks-kit/img/undraw_docusaurus_react.svg',
     description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can be extended while reusing the same
-        header and footer.
-      </>
+      <>This library is designed to get you started using the full power of hooks in your React applications.</>
     ),
   },
 ];
