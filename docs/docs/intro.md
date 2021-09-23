@@ -2,34 +2,21 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## Why use this package
 
-## Getting Started
+React Hooks Kit is a set of ready-made, commonly used hooks for working with React applications.
 
-Get started by **creating a new site**.
+## How is it different and what are the features
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+The library has no third-party dependencies and is easy to implement. You can see the source code of all hooks. It is also completely written in TypeScript, will be useful for those who use typing.
 
-## Generate a new site
 
-Generate a new Docusaurus site using the **classic template**:
+## What task does he perform
 
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
+This library is designed to get you started using the full power of hooks in your React applications. This package contains many solutions for working with different parts of the React application, from optimization in React to working with the browser API.
 
-## Start your site
+## What is included
 
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
+At the moment, there are several Hooks that are already used in many projects. You can use them with ease. A complete list can be found in the documentation.
