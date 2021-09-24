@@ -1,8 +1,8 @@
 import { useRef } from 'react';
 
 /** Hook that counts component renders */
-export const useRenderCount = (componentName?: string | undefined): { renderCount: string | number } => {
-  const renderCount = useRef<number>(0);
+export const useRenderCount = (componentName?: string | undefined) => {
+  const renderCount = useRef(0);
 
   renderCount.current++;
 

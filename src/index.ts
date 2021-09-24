@@ -1,2 +1,2 @@
-export { useRenderCount } from './hooks/useRenderCount';
-export { useModalState } from './hooks/useModalState';
+export { useRenderCount, useRemount } from './hooks/lifecycles';
+export { useModalState } from './hooks/state';

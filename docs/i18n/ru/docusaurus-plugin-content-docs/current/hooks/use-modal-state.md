@@ -54,6 +54,27 @@ const Component = () => {
 };
 ```
 
+Также можно установить начальное состояние для модального окна:
+
+```jsx
+import React from 'react';
+import { useModalState } from 'react-hooks-kit';
+
+const Component = () => {
+  const { isOpen, onOpen, onClose, onToggle } = useModalState({ initialIsOpen: true });
+
+   // Компонент кнопки
+  <Button onClick={onOpen}>Открыть модальное окно</Button>
+
+   // Компонент модального окна
+  <Modal isOpen={isOpen} onClose={onClose}>
+   // Код компонента...
+  </Modal>
+};
+```
+
+Таким образом оно будет открыто по умолчанию.
+
 Доступны следующие функции для работы с состоянием модального окна:
 
 ## Параметры

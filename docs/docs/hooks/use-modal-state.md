@@ -54,6 +54,27 @@ const Component = () => {
 };
 ```
 
+You can also set the initial state for the modal window:
+
+```jsx
+import React from 'react';
+import { useModalState } from 'react-hooks-kit';
+
+const Component = () => {
+  const { isOpen, onOpen, onClose, onToggle } = useModalState({ initialIsOpen: true });
+
+   // Button component
+  <Button onClick={onOpen}>Open modal window</Button>
+
+   // Modal window component
+  <Modal isOpen={isOpen} onClose={onClose}>
+   // Component code...
+  </Modal>
+};
+```
+
+This will open it by default.
+
 The following functions are available for working with the state of the modal window:
 
 ## Options
