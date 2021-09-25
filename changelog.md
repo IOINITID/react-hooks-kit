@@ -6,7 +6,7 @@ All changes will be documented in this file.
 
 ### 1.1.0
 Added:
-- Added useRemount, useToggle hooks.
+- Added useRemount, useToggle, useLocalStorage hooks.
 - Added docs for all hooks.
 
 Changed:
