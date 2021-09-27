@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Intro
+# About
 
 ## Why use this package
 

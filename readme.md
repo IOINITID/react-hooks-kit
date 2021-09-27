@@ -3,63 +3,83 @@
 [![npm version](https://badge.fury.io/js/react-hooks-kit.svg)](https://badge.fury.io/js/react-hooks-kit)
 ![npm](https://img.shields.io/npm/dw/react-hooks-kit)
 ![license](https://badgen.net/github/license/IOINITID/react-hooks-kit)
+![minzip](https://img.shields.io/bundlephobia/minzip/react-hooks-kit)
+[![dependencies Status](https://status.david-dm.org/gh/ioinitid/react-hooks-kit.svg)](https://david-dm.org/ioinitid/react-hooks-kit)
 
-## What is it? 🐱
+![!last-commit](https://img.shields.io/github/last-commit/ioinitid/react-hooks-kit)
+![!PRs-welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![!codestyle-prettier](https://img.shields.io/badge/codestyle-prettier-ff69b4)
 
-A set of useful functions for working with the React application.
+## About
 
-## How to use it?
+Set of useful hooks for [React](https://reactjs.org) applications.
 
-Install the package from npm:
+[Features](#ref-features) | [Documentation](#ref-documentation) | [Localization](#ref-localization) | [Install](#ref-install) | [Peer dependencies](#ref-peer-dependencies)
+
+[Changelog](#ref-changelog) | [Questions](#ref-questions) | [License](#ref-license) | [Contribution](#ref-contribution) | [Additional](#ref-additional)
+
+## ✨ <a name="ref-features">Features</a>
+
+- Easy to use
+- [Small size](https://bundlephobia.com/package/react-hooks-kit@1.0.1)
+- Full [TypeScript](https://www.typescriptlang.org) support
+- Built with no [dependency](https://github.com/IOINITID/react-hooks-kit/blob/master/package.json)
+
+## 🗒 <a name="ref-documentation">Documentation</a>
+
+- [Getting started](https://ioinitid.github.io/react-hooks-kit/docs/about)
+- [Features](https://ioinitid.github.io/react-hooks-kit/docs/features)
+- [Hooks](https://ioinitid.github.io/react-hooks-kit/docs/hooks/state/use-modal-state)
+- [Changelog](https://ioinitid.github.io/react-hooks-kit/docs/changelog)
+
+## 🌎  <a name="ref-localization">Localization</a>
+
+[English](https://ioinitid.github.io/react-hooks-kit/docs/about) 🇺🇸 | [Russian](https://ioinitid.github.io/react-hooks-kit/ru/docs/about) 🇷🇺
+
+## 🚀 <a name="ref-install">Install</a>
+
+From [npm](https://www.npmjs.com):
 
 ```
 npm install --save react-hooks-kit
 ```
 
-Or install from yarn:
+From [yarn](https://yarnpkg.com):
 
 ```
 yarn add react-hooks-kit
 ```
 
-Available hooks:
+## 🔗 <a name="ref-peer-dependencies">Peer dependencies</a>
 
-```
-useRenderCount, useModalState
-```
+This library uses the following peer dependencies, which may already be included in your project if it uses [React](https://reactjs.org):
 
-After that, you need to import the package into your project:
+- [react](https://reactjs.org): 17.0.2
 
-useRenderCount hook:
+## 📃 <a name="ref-changelog">Changelog</a>
 
-```
-import { useRenderCount } from 'react-hooks-kit';
-```
+If you have recently updated, please read [Changelog](https://github.com/IOINITID/react-hooks-kit/blob/master/changelog.md) for details of what has changed.
 
-How to use it:
+## 👨‍🚀 <a name="ref-questions">Questions</a>
 
-```
-const { renderCount } = useRenderCount(); // 1.
+- If you find a problem or want to improve this project, see [Issues](https://github.com/IOINITID/react-hooks-kit/issues).
+- If you can suggest a solution to some problem or decide to improve something in the project, go to [Pull request](https://github.com/IOINITID/react-hooks-kit/pulls).
+- If you have any questions, [ioinitid@gmail.com](mailto:ioinitid@gmail.com).
 
-const { renderCount } = useRenderCount('App'); // (App) component renders: 1;
-```
+## 📄 <a name="ref-license">License</a>
 
-useModalState hook:
+The **React Hooks Kit** package is licensed under the [MIT License](https://github.com/IOINITID/react-hooks-kit/blob/master/license.md).
 
-```
-import { useModalState } from 'react-hooks-kit';
-```
+## 💻 <a name="ref-contribution">Contribution</a>
 
-How to use it:
+Contribution is welcome.
 
-```
-const { isOpen, onToggle } = useModalState();
+You can find detailed instructions and a set of rules in [Contributing](https://github.com/IOINITID/react-hooks-kit/blob/master/contributing.md).
 
-<Modal isOpen={isOpen} onClick={onToggle} />
-```
+Thank you to everyone who has contributed to this project. You are breathtaking.
 
-## Thanks for using this library.
+## <a name="ref-additional">Additional</a>
 
-If you have any suggestions or improvements, we are always open to the Pull Requests.
+Thanks for using this package.
 
-If you liked it, you can put a star on the GitHub, thanks!
+If you will like this, please set star to GitHub, it will help to add more useful hooks.

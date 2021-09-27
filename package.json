@@ -14,10 +14,11 @@
     "url": "git+https://github.com/IOINITID/react-hooks-kit.git"
   },
   "keywords": [
-    "JavaScript",
-    "TypeScript",
-    "React",
-    "Hooks"
+    "javascript",
+    "typescript",
+    "react",
+    "hooks",
+    "react-hooks"
   ],
   "author": "Igor Orishchenko <ioinitid@gmail.com>",
   "license": "MIT",
