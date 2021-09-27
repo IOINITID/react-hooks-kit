@@ -15,7 +15,7 @@ The small package size is one of the advantages, you can only use what you need,
 
 ## Full TypeScript support
 
-Все хуки имеют полную поддержку типов, JSDoc также написан для удобного использования функций.
+All hooks have full type support, JSDoc is also written for convenient use of functions.
 
 ## Built with no dependency
 
