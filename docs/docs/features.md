@@ -6,17 +6,17 @@ sidebar_position: 2
 
 ## Easy to use
 
-Some text here...
+It's easy to get started using the React Hooks Kit, it offers both an easy-to-use yet flexible API and detailed documentation for each hook.
 
 ## Small size
 
-Some text here...
+The small package size is one of the advantages, you can only use what you need, the rest will not be included in your bundle.
 
 
 ## Full TypeScript support
 
-Some text here...
+Все хуки имеют полную поддержку типов, JSDoc также написан для удобного использования функций.
 
 ## Built with no dependency
 
-Some text here...
+The package does not use any dependencies, which ensures stable updates.
