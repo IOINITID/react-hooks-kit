@@ -6,7 +6,7 @@
 
 ## 1.1.0
 Добавлено:
-- Добавлены хуки useRemount, useToggle.
+- Добавлены хуки useRemount, useToggle, useLocalStorage.
 - Добавлена документация для всех хуков.
 
 Изменено:
