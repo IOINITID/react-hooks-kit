@@ -26,6 +26,7 @@ const Component = () => {
   // Выводит в консоль значение по умолчанию
   console.log(value); // undefined
 
+  // Компонент кнопки
   // Добавляет значение в localStorage
   <button onClick={() => setValue({ mode: 'light' })}>Добавить тему</button>
 
