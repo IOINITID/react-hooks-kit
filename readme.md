@@ -36,6 +36,8 @@ Set of useful hooks for [React](https://reactjs.org) applications.
 
 [English](https://ioinitid.github.io/react-hooks-kit/docs/about) 🇺🇸 | [Russian](https://ioinitid.github.io/react-hooks-kit/ru/docs/about) 🇷🇺 | [French](https://ioinitid.github.io/react-hooks-kit/fr/docs/about) 🇫🇷 | [German](https://ioinitid.github.io/react-hooks-kit/de/docs/about) 🇩🇪 | [Spanish](https://ioinitid.github.io/react-hooks-kit/es/docs/about) 🇪🇸
 
+[Korean](https://ioinitid.github.io/react-hooks-kit/ko/docs/about) 🇰🇷
+
 ## 🚀 <a id="install">Install</a>
 
 From [npm](https://www.npmjs.com):
