@@ -8,7 +8,7 @@
 
 ![!last-commit](https://img.shields.io/github/last-commit/ioinitid/react-hooks-kit)
 ![!PRs-welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
-![!codestyle-prettier](https://img.shields.io/badge/codestyle-prettier-ff69b4)
+![!code style-prettier](https://img.shields.io/badge/code%20style-prettier-ff69b4)
 
 ## About
 
