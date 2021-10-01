@@ -6,7 +6,7 @@ All changes will be documented in this file.
 
 ### 1.1.1
 Added:
-- Added French, German, Spanish, Korean, Japanese and Chinese (Traditional) localizations.
+- Added French, German, Spanish, Korean, Japanese and Chinese localizations.
 
 Changed:
 - Updated readme.md file for description.
