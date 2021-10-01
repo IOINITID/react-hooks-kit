@@ -56,7 +56,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               type: 'doc',
               docId: 'about',
               position: 'right',
-              label: 'Docs',
+              label: 'Documentation',
             },
             {
               type: 'localeDropdown',
@@ -79,47 +79,68 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         footer: {
           style: 'dark',
           links: [
-            // {
-            //   title: 'Docs',
-            //   items: [
-            //     {
-            //       label: 'Tutorial',
-            //       to: '/docs/intro',
-            //     },
-            //   ],
-            // },
-            // {
-            //   title: 'Community',
-            //   items: [
-            //     // {
-            //     //   label: 'Stack Overflow',
-            //     //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            //     // },
-            //     // {
-            //     //   label: 'Discord',
-            //     //   href: 'https://discordapp.com/invite/docusaurus',
-            //     // },
-            //     // {
-            //     //   label: 'Twitter',
-            //     //   href: 'https://twitter.com/docusaurus',
-            //     // },
-            //   ],
-            // },
-            // {
-            //   title: 'More',
-            //   items: [
-            //     // {
-            //     //   label: 'Blog',
-            //     //   to: '/blog',
-            //     // },
-            //     {
-            //       label: 'GitHub',
-            //       href: 'https://github.com/facebook/docusaurus',
-            //     },
-            //   ],
-            // },
+            {
+              title: 'Documentation',
+              items: [
+                {
+                  label: 'About',
+                  to: '/docs/about',
+                },
+                {
+                  label: 'Features',
+                  to: '/docs/features',
+                },
+                {
+                  label: 'Hooks',
+                  to: '/docs/hooks/state/use-modal-state',
+                },
+                {
+                  label: 'Changelog',
+                  to: '/docs/changelog',
+                },
+              ],
+            },
+            {
+              title: 'Community',
+              items: [
+                {
+                  label: 'Issues',
+                  href: 'https://github.com/IOINITID/react-hooks-kit/issues',
+                },
+                {
+                  label: 'Pull requests',
+                  href: 'https://github.com/IOINITID/react-hooks-kit/pulls',
+                },
+                {
+                  label: 'Source',
+                  href: 'https://github.com/IOINITID/react-hooks-kit',
+                },
+              ],
+            },
+            {
+              title: 'Social',
+              items: [
+                {
+                  label: 'GitHub',
+                  href: 'https://github.com/IOINITID/react-hooks-kit',
+                },
+              ],
+            },
+            {
+              title: 'Built with',
+              items: [
+                {
+                  label: 'Docusaurus',
+                  href: 'https://docusaurus.io',
+                },
+                {
+                  label: 'GitHub Pages',
+                  href: 'https://pages.github.com',
+                },
+              ],
+            },
           ],
-          copyright: `Copyright © ${new Date().getFullYear()} React Hooks Kit. Built with Docusaurus.`,
+          copyright: `Copyright © ${new Date().getFullYear()} React Hooks Kit.`,
         },
         prism: {
           theme: lightCodeTheme,
