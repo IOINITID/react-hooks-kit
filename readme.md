@@ -14,29 +14,29 @@
 
 Set of useful hooks for [React](https://reactjs.org) applications.
 
-[Features](#ref-features) | [Documentation](#ref-documentation) | [Localization](#ref-localization) | [Install](#ref-install) | [Peer dependencies](#ref-peer-dependencies)
+[Features](#features) | [Documentation](#documentation) | [Localization](#localization) | [Install](#install) | [Peer dependencies](#peer-dependencies)
 
-[Changelog](#ref-changelog) | [Questions](#ref-questions) | [License](#ref-license) | [Contribution](#ref-contribution) | [Additional](#ref-additional)
+[Changelog](#changelog) | [Questions](#questions) | [License](#license) | [Contribution](#contribution) | [Additional](#additional)
 
-## ✨ <a name="ref-features">Features</a>
+## ✨ <a id="features">Features</a>
 
 - Easy to use
 - [Small size](https://bundlephobia.com/package/react-hooks-kit@1.0.1)
 - Full [TypeScript](https://www.typescriptlang.org) support
 - Built with no [dependency](https://github.com/IOINITID/react-hooks-kit/blob/master/package.json)
 
-## 🗒 <a name="ref-documentation">Documentation</a>
+## 🗒 <a id="documentation">Documentation</a>
 
 - [Getting started](https://ioinitid.github.io/react-hooks-kit/docs/about)
 - [Features](https://ioinitid.github.io/react-hooks-kit/docs/features)
 - [Hooks](https://ioinitid.github.io/react-hooks-kit/docs/hooks/state/use-modal-state)
 - [Changelog](https://ioinitid.github.io/react-hooks-kit/docs/changelog)
 
-## 🌎  <a name="ref-localization">Localization</a>
+## 🌎  <a id="localization">Localization</a>
 
-[English](https://ioinitid.github.io/react-hooks-kit/docs/about) 🇺🇸 | [Russian](https://ioinitid.github.io/react-hooks-kit/ru/docs/about) 🇷🇺
+[English](https://ioinitid.github.io/react-hooks-kit/docs/about) 🇺🇸 | [Russian](https://ioinitid.github.io/react-hooks-kit/ru/docs/about) 🇷🇺 | [French](https://ioinitid.github.io/react-hooks-kit/fr/docs/about) 🇫🇷 | [German](https://ioinitid.github.io/react-hooks-kit/de/docs/about) 🇩🇪 | [Spanish](https://ioinitid.github.io/react-hooks-kit/es/docs/about) 🇪🇸
 
-## 🚀 <a name="ref-install">Install</a>
+## 🚀 <a id="install">Install</a>
 
 From [npm](https://www.npmjs.com):
 
@@ -50,27 +50,27 @@ From [yarn](https://yarnpkg.com):
 yarn add react-hooks-kit
 ```
 
-## 🔗 <a name="ref-peer-dependencies">Peer dependencies</a>
+## 🔗 <a id="peer-dependencies">Peer dependencies</a>
 
 This library uses the following peer dependencies, which may already be included in your project if it uses [React](https://reactjs.org):
 
 - [react](https://reactjs.org): 17.0.2
 
-## 📃 <a name="ref-changelog">Changelog</a>
+## 📃 <a id="changelog">Changelog</a>
 
 If you have recently updated, please read [Changelog](https://github.com/IOINITID/react-hooks-kit/blob/master/changelog.md) for details of what has changed.
 
-## 👨‍🚀 <a name="ref-questions">Questions</a>
+## 👨‍🚀 <a id="questions">Questions</a>
 
 - If you find a problem or want to improve this project, see [Issues](https://github.com/IOINITID/react-hooks-kit/issues).
 - If you can suggest a solution to some problem or decide to improve something in the project, go to [Pull request](https://github.com/IOINITID/react-hooks-kit/pulls).
 - If you have any questions, [ioinitid@gmail.com](mailto:ioinitid@gmail.com).
 
-## 📄 <a name="ref-license">License</a>
+## 📄 <a id="license">License</a>
 
 The **React Hooks Kit** package is licensed under the [MIT License](https://github.com/IOINITID/react-hooks-kit/blob/master/license.md).
 
-## 💻 <a name="ref-contribution">Contribution</a>
+## 💻 <a id="contribution">Contribution</a>
 
 Contribution is welcome.
 
@@ -78,7 +78,7 @@ You can find detailed instructions and a set of rules in [Contributing](https://
 
 Thank you to everyone who has contributed to this project. You are breathtaking.
 
-## <a name="ref-additional">Additional</a>
+## <a id="additional">Additional</a>
 
 Thanks for using this package.
 
