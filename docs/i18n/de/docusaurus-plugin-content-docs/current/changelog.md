@@ -4,6 +4,15 @@ Alle Änderungen werden in dieser Datei dokumentiert.
 
 ---
 
+### 1.1.1
+Hinzugefügt von:
+- Lokalisierungen für Französisch, Deutsch, Spanisch, Koreanisch, Japanisch und Chinesisch hinzugefügt.
+
+Geändert:
+- Aktualisierte Datei readme.md für Beschreibung.
+
+---
+
 ## 1.1.0
 Hinzugefügt von:
 - useRemount, useToggle, useLocalStorage Hooks hinzugefügt.
