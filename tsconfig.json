@@ -9,7 +9,8 @@
     "strict": true,
     "sourceMap": true,
     "declaration": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "lib": ["ES2015", "DOM"]
   },
   "include": ["./src/**/*"],
   "exclude": ["node_modules"]

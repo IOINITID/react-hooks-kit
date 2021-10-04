@@ -2,3 +2,4 @@ export { useRenderCount, useRemount, useFirstMount, useMount, useUnmount } from 
 export { useModalState, useToggle } from './hooks/state';
 export { useLocalStorage } from './hooks/browser';
 export { useInterval, useTimeout } from './hooks/effects';
+export { useFetch } from './hooks/data';
