@@ -46,8 +46,8 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <div dangerouslySetInnerHTML={{ __html: script }} />
       </main>
-      <div dangerouslySetInnerHTML={{ __html: script }} />
     </Layout>
   );
 }
