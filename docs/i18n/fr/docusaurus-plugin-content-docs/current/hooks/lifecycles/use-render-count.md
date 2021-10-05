@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # useRenderCount
 
-## De quoi a-t-il besoin pour
+## A quoi a-t-il besoin pour
 
 L'utilisation de ce hook peut vous aider à développer de nouveaux composants, à suivre les rendus et à optimiser le processus. Donc aussi pour améliorer ce qui a déjà été écrit.
 

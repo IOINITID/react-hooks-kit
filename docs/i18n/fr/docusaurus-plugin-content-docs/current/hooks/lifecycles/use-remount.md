@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # useRemount
 
-## De quoi a-t-il besoin pour
+## A quoi a-t-il besoin pour
 
 Si vous devez remonter manuellement votre composant. Cela peut être utile lorsque vous devez mettre à jour les données d'un composant, quel que soit son état.
 

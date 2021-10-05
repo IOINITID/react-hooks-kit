@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # useLocalStorage
 
-## De quoi a-t-il besoin pour
+## A quoi a-t-il besoin pour
 
 Ce hook vous permet de gérer le stockage local via l'API du navigateur. Il est possible de lire, d'écrire de nouvelles valeurs et de supprimer des valeurs du stockage local.
 

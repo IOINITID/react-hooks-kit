@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # useToggle
 
-## De quoi a-t-il besoin pour
+## A quoi a-t-il besoin pour
 
 Ce hook permet de gérer facilement deux états pour basculer ou interagir avec des éléments.
 

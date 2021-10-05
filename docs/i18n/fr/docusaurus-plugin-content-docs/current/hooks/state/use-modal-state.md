@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # useModalState
 
-## De quoi a-t-il besoin pour
+## A quoi a-t-il besoin pour
 
 Vous pouvez l'utiliser pour gérer l'état de vos modaux plus rapidement et de manière plus flexible. À la fois nos propres bibliothèques et des bibliothèques prêtes à l'emploi.
 
