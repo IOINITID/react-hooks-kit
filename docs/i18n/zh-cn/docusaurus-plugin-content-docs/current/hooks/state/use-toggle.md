@@ -4,17 +4,17 @@ sidebar_position: 2
 
 # useToggle
 
-## 需要什麼
+## 需要什么
 
-這個鉤子允許你輕鬆管理兩個狀態以切換或與元素交互。
+这个钩子允许你轻松管理两个状态以切换或与元素交互。
 
-## 好處
+## 好处
 
-使用這個鉤子，你不會在你的項目中創建不必要的樣板代碼。 另外，不要在組件內創建額外的狀態。
+使用这个钩子，你不会在你的项目中创建不必要的样板代码。 另外，不要在组件内创建额外的状态。
 
-## 如何開始使用
+## 如何开始使用
 
-為了開始使用這個鉤子，你需要將它導入到你的項目中：
+为了开始使用这个钩子，你需要将它导入到你的项目中：
 
 ```jsx
 import React from 'react';
@@ -23,12 +23,12 @@ import { useToggle } from 'react-hooks-kit';
 const Component = () => {
   const { isEnable, onToggle } = useToggle();
 
-   // 開關元件
+   // 开关组件
   <Switch isEnabled={isEnabled} onClick={onToggle}>
 };
 ```
 
-您還可以設置開關的初始狀態：
+您还可以设置开关的初始状态：
 
 ```jsx
 import React from 'react';
@@ -37,18 +37,18 @@ import { useToggle } from 'react-hooks-kit';
 const Component = () => {
   const { isEnabled, onToggle } = useToggle({ initialIsEnabled: true });
 
-   // 開關元件
+   // 开关组件
   <Switch isEnabled={isEnabled} onClick={onToggle}>
 };
 ```
 
-這將默認打開開關。
+这将默认打开开关。
 
-以下函數可用於處理開關狀態：
+以下函数可用于处理开关状态：
 
-## 選項
+## 选项
 
-| 姓名 | 類型 | 描述 |
+| 姓名 | 类型 | 描述 |
 | :---: | :---: | :---: |
-| isEnabled | boolean | 返回開關的開啟狀態。 |
-| onToggle | () => void | 將狀態切換到相反的狀態。 |
+| isEnabled | boolean | 返回开关的开启状态。 |
+| onToggle | () => void | 将状态切换到相反的状态。 |

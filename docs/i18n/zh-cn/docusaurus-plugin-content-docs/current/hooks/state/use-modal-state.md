@@ -4,13 +4,13 @@ sidebar_position: 1
 
 # useModalState
 
-## 需要什麼
+## 需要什么
 
-更快、更靈活地管理模態狀態對您很有用。 我們自己的和現成的庫。
+您可以使用它更快、更灵活地管理模态的状态。 我们自己的和现成的库。
 
-## 好處
+## 好处
 
-當我們編寫模態時，會生成很多樣板代碼，例如，要創建使用模態窗口的狀態，我們需要編寫如下內容：
+当我们编写模态时，会创建很多样板代码，例如，要创建使用模态窗口的状态，我们需要编写如下内容：
 
 ```jsx
 import React from 'react';
@@ -21,21 +21,21 @@ const Component = () => {
   const onOpen = () => setIsOpen(true);
   const onClose = () => setIsOpen(false);
 
-  // 按鈕組件
-  <Button onClick={onOpen}>打開模態窗口</Button>
+  // 按钮组件
+  <Button onClick={onOpen}>打开模态窗口</Button>
 
-  // 模態窗口組件
+  // 模态窗口组件
   <Modal isOpen={isOpen} onClose={onClose}>
-    // 組件代碼...
+    // 组件代码...
   </Modal>
 };
 ```
 
-從上面的示例中，您可以看到管理單個狀態需要寫入多少。 通過使用 **useModalState**，您無需在組件內編寫額外的代碼或創建額外的狀態。
+从上面的示例中，您可以看到管理单个状态需要编写多少。 通过使用 **useModalState**，您无需在组件内编写额外的代码或创建额外的状态。
 
-## 如何開始使用
+## 如何开始使用
 
-為了開始使用這個鉤子，你需要將它導入到你的項目中：
+为了开始使用这个钩子，你需要将它导入到你的项目中：
 
 ```jsx
 import React from 'react';
@@ -44,17 +44,17 @@ import { useModalState } from 'react-hooks-kit';
 const Component = () => {
   const { isOpen, onOpen, onClose, onToggle } = useModalState();
 
-   // 按鈕組件
-  <Button onClick={onOpen}>打開模態窗口</Button>
+   // 按钮组件
+  <Button onClick={onOpen}>打开模态窗口</Button>
 
-   // 模態窗口組件
+   // 模态窗口组件
   <Modal isOpen={isOpen} onClose={onClose}>
-   // 組件代碼...
+   // 组件代码...
   </Modal>
 };
 ```
 
-您還可以設置模態窗口的初始狀態：
+您还可以设置模态窗口的初始状态：
 
 ```jsx
 import React from 'react';
@@ -63,25 +63,25 @@ import { useModalState } from 'react-hooks-kit';
 const Component = () => {
   const { isOpen, onOpen, onClose, onToggle } = useModalState({ initialIsOpen: true });
 
-   // 按鈕組件
-  <Button onClick={onOpen}>打開模態窗口</Button>
+   // 按钮组件
+  <Button onClick={onOpen}>打开模态窗口</Button>
 
-   // 模態窗口組件
+   // 模态窗口组件
   <Modal isOpen={isOpen} onClose={onClose}>
-   // 組件代碼...
+   // 组件代码...
   </Modal>
 };
 ```
 
-這將默認打開它。
+这将默认打开它。
 
-以下函數可用於處理模態窗口的狀態：
+以下函数可用于处理模态窗口的状态：
 
-## 選項
+## 选项
 
-| 姓名 | 類型 | 描述 |
+| 姓名 | 类型 | 描述 |
 | :---: | :---: | :---: |
-| isOpen | boolean | 返回模態窗口的打開狀態。 |
-| onOpen | () => void | 用於打開模態窗口的函數。 |
-| onClose | () => void | 關閉模態窗口的函數。 |
-| onToggle | () => void | 將模態窗口的狀態切換到相反的狀態。 |
+| isOpen | boolean | 返回模态窗口的打开状态。 |
+| onOpen | () => void | 用于打开模态窗口的函数。 |
+| onClose | () => void | 关闭模态窗口的函数。 |
+| onToggle | () => void | 将模态窗口的状态切换到相反的状态。 |
