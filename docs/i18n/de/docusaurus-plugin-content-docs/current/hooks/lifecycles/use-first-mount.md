@@ -4,17 +4,17 @@ sidebar_position: 3
 
 # useFirstMount
 
-## Для чего нужен
+## Wofür wird es benötigt
 
-Этот хук позволяет определить, является ли рендер компонента, в котором он вызван первый, или уже произошли новые рендеры. В основном он может пригодится, для исполнения кода один раз в компоненте, независимо от его дальнейших рендеров.
+Mit diesem Hook können Sie feststellen, ob das Rendering der Komponente, in der es aufgerufen wird, das erste ist oder ob bereits neue Renderings aufgetreten sind. Grundsätzlich kann es nützlich sein, Code einmal in einer Komponente auszuführen, unabhängig von seinen weiteren Renderings.
 
-## Преимущества
+## Vorteile
 
-Данный хук предоставляет простой флаг, для определения, является ли рендер компонента первым или нет. Он сохраняет значение независимо от новых рендеров компонента.
+Dieser Hook bietet ein einfaches Flag, um zu bestimmen, ob die Komponente zuerst gerendert wird oder nicht. Es behält seinen Wert unabhängig von neuen Komponenten-Renderings.
 
-## Как начать использовать
+## So starten Sie die Verwendung
 
-Для того чтобы начать использовать этот хук, вам нужно импортировать его в проект:
+Um diesen Hook zu verwenden, müssen Sie ihn in Ihr Projekt importieren:
 
 ```jsx
 import React from 'react';
@@ -25,14 +25,14 @@ const Component = () => {
 
   console.log(isFirstMount); // true
 
-  // Код компонента...
+  // Komponentencode...
 };
 ```
 
-Доступны следующие функции для работы:
+Zur Bedienung stehen folgende Funktionen zur Verfügung:
 
-## Параметры
+## Optionen
 
-| Название | Тип | Описание |
+| Name | Art der | Beschreibung |
 | :---: | :---: | :---: |
-| isFirstMount | boolean | Возвращает значение первый рендер компонента или нет. |
+| isFirstMount | boolean | Gibt das erste Rendering der Komponente zurück oder nicht. |

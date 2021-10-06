@@ -4,17 +4,17 @@ sidebar_position: 4
 
 # useMount
 
-## Для чего нужен
+## Wofür wird es benötigt
 
-Данный хук позволяет выполнять код в момент монтирования компонента.
+Mit diesem Hook können Sie Code ausführen, wenn die Komponente gemountet ist.
 
-## Преимущества
+## Vorteile
 
-Позволяет с легкостью использовать состояние монтирования компонента и исполнять код в этот момент.
+Ermöglicht es Ihnen, den Mount-Status der Komponente einfach zu verwenden und den Code in diesem Moment auszuführen.
 
-## Как начать использовать
+## So starten Sie die Verwendung
 
-Для того чтобы начать использовать этот хук, вам нужно импортировать его в проект:
+Um diesen Hook zu verwenden, müssen Sie ihn in Ihr Projekt importieren:
 
 ```jsx
 import React from 'react';
@@ -23,14 +23,14 @@ import { useMount } from 'react-hooks-kit';
 const Component = () => {
   useMount(() => console.log('Hello!')); // Hello!
 
-  // Сообщение в консоль выведется при монтировании компонента
+  // Eine Meldung wird in der Konsole angezeigt, wenn die Komponente gemountet ist
 };
 ```
 
-Доступны следующие функции для работы:
+Zur Bedienung stehen folgende Funktionen zur Verfügung:
 
-## Параметры
+## Optionen
 
-| Название | Тип | Описание |
+| Name | Art der | Beschreibung |
 | :---: | :---: | :---: |
-| callback | () => void | Функция для выполнения. |
+| callback | () => void | Funktion zum Ausführen. |

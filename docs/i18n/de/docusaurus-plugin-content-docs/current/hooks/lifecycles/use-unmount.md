@@ -4,17 +4,17 @@ sidebar_position: 5
 
 # useUnmount
 
-## Для чего нужен
+## Wofür wird es benötigt
 
-Данный хук позволяет выполнять код в момент размонтирования компонента.
+Mit diesem Hook können Sie Code ausführen, wenn die Komponente ausgehängt ist.
 
-## Преимущества
+## Vorteile
 
-Позволяет с легкостью использовать состояние размонтирования компонента и исполнять код в этот момент.
+Ermöglicht es Ihnen, den unmounteten Zustand der Komponente einfach zu verwenden und den Code in diesem Moment auszuführen.
 
-## Как начать использовать
+## So starten Sie die Verwendung
 
-Для того чтобы начать использовать этот хук, вам нужно импортировать его в проект:
+Um diesen Hook zu verwenden, müssen Sie ihn in Ihr Projekt importieren:
 
 ```jsx
 import React from 'react';
@@ -23,14 +23,14 @@ import { useUnmount } from 'react-hooks-kit';
 const Component = () => {
   useUnmount(() => console.log('Hello!')); // Hello!
 
-  // Сообщение в консоль выведется при размонтировании компонента
+  // Eine Meldung wird in der Konsole angezeigt, wenn die Komponente ausgehängt ist
 };
 ```
 
-Доступны следующие функции для работы:
+Zur Bedienung stehen folgende Funktionen zur Verfügung:
 
-## Параметры
+## Optionen
 
-| Название | Тип | Описание |
+| Name | Art der | Beschreibung |
 | :---: | :---: | :---: |
-| callback | () => void | Функция для выполнения. |
+| callback | () => void | Funktion zum Ausführen. |

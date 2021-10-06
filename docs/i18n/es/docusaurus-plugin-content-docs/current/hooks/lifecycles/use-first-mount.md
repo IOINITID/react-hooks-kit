@@ -4,17 +4,17 @@ sidebar_position: 3
 
 # useFirstMount
 
-## Для чего нужен
+## Para que se necesita
 
-Этот хук позволяет определить, является ли рендер компонента, в котором он вызван первый, или уже произошли новые рендеры. В основном он может пригодится, для исполнения кода один раз в компоненте, независимо от его дальнейших рендеров.
+Este gancho le permite determinar si el renderizado del componente en el que se llama es el primero, o si ya se han producido nuevos renderizados. Básicamente, puede ser útil para ejecutar código una vez en un componente, independientemente de sus representaciones posteriores.
 
-## Преимущества
+## Ventajas
 
-Данный хук предоставляет простой флаг, для определения, является ли рендер компонента первым или нет. Он сохраняет значение независимо от новых рендеров компонента.
+Este gancho proporciona una bandera simple para determinar si el componente se representa primero o no. Conserva su valor independientemente de las nuevas representaciones de componentes.
 
-## Как начать использовать
+## Cómo empezar a usar
 
-Для того чтобы начать использовать этот хук, вам нужно импортировать его в проект:
+Para comenzar a usar este gancho, debe importarlo a su proyecto:
 
 ```jsx
 import React from 'react';
@@ -25,14 +25,14 @@ const Component = () => {
 
   console.log(isFirstMount); // true
 
-  // Код компонента...
+  // Código de componente...
 };
 ```
 
-Доступны следующие функции для работы:
+Las siguientes funciones están disponibles para su funcionamiento:
 
-## Параметры
+## Opciones
 
-| Название | Тип | Описание |
+| Nombre | Tipo de | Descripción |
 | :---: | :---: | :---: |
-| isFirstMount | boolean | Возвращает значение первый рендер компонента или нет. |
+| isFirstMount | boolean | Devuelve el primer renderizado del componente o no. |
