@@ -6,6 +6,8 @@ export const useFirstMount = () => {
 
   if (isFirstMount.current) {
     isFirstMount.current = false;
+
+    return { isFirstMount: true };
   }
 
   return { isFirstMount: isFirstMount.current };
