@@ -13,5 +13,5 @@
     "lib": ["ES2015", "DOM"]
   },
   "include": ["./src/**/*"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "./src/tests"]
 }
