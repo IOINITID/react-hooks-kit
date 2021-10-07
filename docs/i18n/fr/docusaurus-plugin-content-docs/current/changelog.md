@@ -4,6 +4,15 @@ Toutes les modifications seront documentées dans ce fichier.
 
 ---
 
+### 1.2.0
+Ajouté par:
+- Ajout des crochets useFetch, useInterval, useTimeout, useFirstMount, useMount, useUnmount.
+
+Modifié:
+- Mise à jour du fichier readme.md pour la description.
+
+---
+
 ### 1.1.1
 Ajouté par:
 - Ajout des localisations en français, allemand, espagnol, coréen, japonais et chinois.

@@ -21,7 +21,7 @@ Set of useful hooks for [React](https://reactjs.org) applications.
 ## ✨ <a id="features">Features</a>
 
 - Easy to use
-- [Small size](https://bundlephobia.com/package/react-hooks-kit@1.0.1)
+- [Small size](https://bundlephobia.com/package/react-hooks-kit@1.2.0)
 - Full [TypeScript](https://www.typescriptlang.org) support
 - Built with no [dependency](https://github.com/IOINITID/react-hooks-kit/blob/master/package.json)
 

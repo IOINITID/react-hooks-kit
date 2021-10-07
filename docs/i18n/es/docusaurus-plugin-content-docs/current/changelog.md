@@ -4,6 +4,15 @@ Todos los cambios se documentarán en este archivo.
 
 ---
 
+### 1.2.0
+Añadido por:
+- Se agregaron ganchos useFetch, useInterval, useTimeout, useFirstMount, useMount, useUnmount.
+
+Cambió:
+- Se actualizó el archivo readme.md para obtener una descripción.
+
+---
+
 ### 1.1.1
 Añadido por:
 - Añadidas localizaciones en francés, alemán, español, coreano, japonés y chino.

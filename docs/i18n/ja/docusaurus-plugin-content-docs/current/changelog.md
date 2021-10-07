@@ -4,6 +4,15 @@
 
 ---
 
+### 1.2.0
+によって追加:
+- フックuseFetch、useInterval、useTimeout、useFirstMount、useMount、useUnmountが追加されました。
+
+かわった:
+- 説明のためにreadme.mdファイルを更新しました。
+
+---
+
 ### 1.1.1
 によって追加:
 - フランス語、ドイツ語、スペイン語、韓国語、日本語、中国語のローカリゼーションを追加しました。

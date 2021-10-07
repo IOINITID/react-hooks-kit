@@ -4,6 +4,15 @@
 
 ---
 
+### 1.2.0
+添加者:
+- 添加了钩子 useFetch、useInterval、useTimeout、useFirstMount、useMount、useUnmount。
+
+改变了:
+- 更新了 readme.md 文件的描述。
+
+---
+
 ### 1.1.1
 添加者:
 - 添加了法语、德语、西班牙语、韩语、日语和中文本地化。
