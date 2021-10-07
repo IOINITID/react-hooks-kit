@@ -4,7 +4,7 @@
 ![npm](https://img.shields.io/npm/dw/react-hooks-kit)
 ![license](https://badgen.net/github/license/IOINITID/react-hooks-kit)
 ![minzip](https://img.shields.io/bundlephobia/minzip/react-hooks-kit)
-[![dependencies Status](https://status.david-dm.org/gh/ioinitid/react-hooks-kit.svg)](https://david-dm.org/ioinitid/react-hooks-kit)
+[![dependencies Status](https://status.david-dm.org/gh/ioinitid/react-hooks-kit.svg)](https://david-dm.org/ioinitid/react-hooks-kit.svg)
 
 ![!last-commit](https://img.shields.io/github/last-commit/ioinitid/react-hooks-kit)
 ![!PRs-welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
