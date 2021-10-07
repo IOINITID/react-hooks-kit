@@ -7,6 +7,7 @@
 ### 1.2.0
 添加者:
 - 添加了钩子 useFetch、useInterval、useTimeout、useFirstMount、useMount、useUnmount。
+- 添加了对 useMount、useUnmount 和 useFirstMount 钩子的测试。
 
 改变了:
 - 更新了 readme.md 文件的描述。

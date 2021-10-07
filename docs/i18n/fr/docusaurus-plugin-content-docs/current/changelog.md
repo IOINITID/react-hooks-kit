@@ -7,6 +7,7 @@ Toutes les modifications seront documentées dans ce fichier.
 ### 1.2.0
 Ajouté par:
 - Ajout des crochets useFetch, useInterval, useTimeout, useFirstMount, useMount, useUnmount.
+- Ajout de tests pour les crochets useMount, useUnmount et useFirstMount.
 
 Modifié:
 - Mise à jour du fichier readme.md pour la description.

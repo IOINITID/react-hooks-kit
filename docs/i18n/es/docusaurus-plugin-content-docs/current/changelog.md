@@ -7,6 +7,7 @@ Todos los cambios se documentarán en este archivo.
 ### 1.2.0
 Añadido por:
 - Se agregaron ganchos useFetch, useInterval, useTimeout, useFirstMount, useMount, useUnmount.
+- Se agregaron pruebas para los ganchos useMount, useUnmount y useFirstMount.
 
 Cambió:
 - Se actualizó el archivo readme.md para obtener una descripción.

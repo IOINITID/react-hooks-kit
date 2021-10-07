@@ -7,6 +7,7 @@ Alle Änderungen werden in dieser Datei dokumentiert.
 ### 1.2.0
 Hinzugefügt von:
 - Hooks useFetch, useInterval, useTimeout, useFirstMount, useMount, useUnmount hinzugefügt.
+- Tests für useMount-, useUnmount- und useFirstMount-Hooks hinzugefügt.
 
 Geändert:
 - Aktualisierte Datei readme.md für Beschreibung.

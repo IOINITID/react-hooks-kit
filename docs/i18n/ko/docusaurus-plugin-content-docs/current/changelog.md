@@ -7,6 +7,7 @@
 ### 1.2.0
 추가한 사람:
 - 후크 useFetch, useInterval, useTimeout, useFirstMount, useMount, useUnmount를 추가했습니다.
+- useMount, useUnmount 및 useFirstMount 후크에 대한 테스트를 추가했습니다.
 
 변경됨:
 - 설명을 위해 readme.md 파일을 업데이트했습니다.

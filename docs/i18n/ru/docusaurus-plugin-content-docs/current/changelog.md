@@ -7,6 +7,7 @@
 ### 1.2.0
 Добавлено:
 - Добавлены хуки useFetch, useInterval, useTimeout, useFirstMount, useMount, useUnmount.
+- Добавлены тесты для useMount, useUnmount и useFirstMount хуков.
 
 Изменено:
 - Обновлен файл readme.md для описания.

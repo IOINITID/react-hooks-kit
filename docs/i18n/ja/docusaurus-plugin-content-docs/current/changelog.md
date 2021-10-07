@@ -7,6 +7,7 @@
 ### 1.2.0
 によって追加:
 - フックuseFetch、useInterval、useTimeout、useFirstMount、useMount、useUnmountが追加されました。
+- useMount、useUnmount、useFirstMountフックのテストを追加しました。
 
 かわった:
 - 説明のためにreadme.mdファイルを更新しました。

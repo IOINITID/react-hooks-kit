@@ -7,6 +7,7 @@ All changes will be documented in this file.
 ### 1.2.0
 Added:
 - Added hooks useFetch, useInterval, useTimeout, useFirstMount, useMount, useUnmount.
+- Added tests for useMount, useUnmount and useFirstMount hooks.
 
 Changed:
 - Updated readme.md file for description.
