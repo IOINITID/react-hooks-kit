@@ -5,6 +5,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
+    "test": "yarn run jest --coverage",
     "prebuild": "rm -rf ./dist",
     "build": "yarn run prebuild && tsc && cp ./package.json ./dist && cp ./changelog.md ./dist && cp ./contributing.md ./dist && cp ./license.md ./dist && cp ./readme.md ./dist",
     "docs": "cd ./docs && yarn run build && npx gh-pages -d ./build"
