@@ -9,6 +9,7 @@
 ![!last-commit](https://img.shields.io/github/last-commit/ioinitid/react-hooks-kit)
 ![!PRs-welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
 ![!code style-prettier](https://img.shields.io/badge/code%20style-prettier-ff69b4)
+[![codecov](https://codecov.io/gh/IOINITID/react-hooks-kit/branch/master/graph/badge.svg?token=IEK4O7TEQI)](https://codecov.io/gh/IOINITID/react-hooks-kit)
 
 ## About
 
