@@ -1,5 +1,5 @@
 import { renderHook } from '@testing-library/react-hooks';
-import { useMount } from '../../hooks/lifecycles/useMount';
+import { useMount } from '../../index';
 
 const mockCall = jest.fn();
 
