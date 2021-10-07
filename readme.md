@@ -28,7 +28,7 @@ Set of useful hooks for [React](https://reactjs.org) applications.
 
 ## 🗒 <a id="documentation">Documentation</a>
 
-- [Getting started](https://ioinitid.github.io/react-hooks-kit/docs/about)
+- [Getting started](https://ioinitid.github.io/react-hooks-kit)
 - [Features](https://ioinitid.github.io/react-hooks-kit/docs/features)
 - [Hooks](https://ioinitid.github.io/react-hooks-kit/docs/hooks/state/use-modal-state)
 - [Changelog](https://ioinitid.github.io/react-hooks-kit/docs/changelog)
