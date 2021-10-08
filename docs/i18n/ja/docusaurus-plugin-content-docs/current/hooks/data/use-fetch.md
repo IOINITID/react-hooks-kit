@@ -10,7 +10,7 @@ sidebar_position: 1
 
 ## 利点
 
-このフックは、[Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)を使用して実装されました。これにより、[Axios](https://axios-http.com)およびその他のライブラリ。 また、リクエストの状態を処理するボイラープレートコードを取り除くのにも役立ちます。
+このフックは、[Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)を使用して実装されました。これにより、[Axios](https//axios-http.com)およびその他のライブラリ。 また、リクエストの状態を処理するボイラープレートコードを取り除くのにも役立ちます。
 
 ## 使い始める方法
 
