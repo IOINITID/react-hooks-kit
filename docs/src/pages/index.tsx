@@ -5,7 +5,6 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
-import { Helmet } from 'react-helmet';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -28,6 +27,7 @@ export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
 
   const script = `
+  <script type="text/javascript" >
      (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
      m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
@@ -38,7 +38,10 @@ export default function Home(): JSX.Element {
           accurateTrackBounce:true,
           webvisor:true
      });
+  </script>
     `;
+
+  document.body.insertAdjacentHTML('afterbegin', script);
 
   return (
     <Layout title={`Hello from ${siteConfig.title}`} description="Description will go into a meta tag in <head />">
@@ -46,9 +49,7 @@ export default function Home(): JSX.Element {
       <main>
         <HomepageFeatures />
       </main>
-      <Helmet>
-        <script dangerouslySetInnerHTML={{ __html: script }} />
-      </Helmet>
+      <div dangerouslySetInnerHTML={{ __html: script }} />
     </Layout>
   );
 }
