@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[1845],{9523:function(o){o.exports=JSON.parse('{"allTagsPath":"/react-hooks-kit/ru/blog/tags","slug":"/react-hooks-kit/ru/blog/tags/hello","name":"hello","count":2,"permalink":"/react-hooks-kit/ru/blog/tags/hello"}')}}]);
