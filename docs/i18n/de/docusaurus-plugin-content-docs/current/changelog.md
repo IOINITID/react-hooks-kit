@@ -4,6 +4,16 @@ Alle Änderungen werden in dieser Datei dokumentiert.
 
 ---
 
+### 1.3.0
+Hinzugefügt von:
+- useGeolocation- und useSetState-Hooks hinzugefügt.
+- Tests für die Hooks useGeolocation und useSetState hinzugefügt.
+
+Geändert:
+- Aktualisierte Datei readme.md für Beschreibung.
+
+---
+
 ### 1.2.0
 Hinzugefügt von:
 - Hooks useFetch, useInterval, useTimeout, useFirstMount, useMount, useUnmount hinzugefügt.

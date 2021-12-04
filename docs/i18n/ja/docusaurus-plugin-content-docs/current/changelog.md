@@ -4,6 +4,16 @@
 
 ---
 
+### 1.3.0
+によって追加:
+- useGeolocationフックとuseSetStateフックが追加されました。
+- useGeolocationフックとuseSetStateフックのテストを追加しました。
+
+かわった:
+- 説明のためにreadme.mdファイルを更新しました。
+
+---
+
 ### 1.2.0
 によって追加:
 - フックuseFetch、useInterval、useTimeout、useFirstMount、useMount、useUnmountが追加されました。

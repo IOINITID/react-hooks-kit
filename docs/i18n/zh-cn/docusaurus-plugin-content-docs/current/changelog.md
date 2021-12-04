@@ -4,6 +4,16 @@
 
 ---
 
+### 1.3.0
+添加者:
+- 添加了 useGeolocation 和 useSetState 钩子。
+- 添加了对 useGeolocation 和 useSetState 挂钩的测试。
+
+改变了:
+- 更新了 readme.md 文件的描述。
+
+---
+
 ### 1.2.0
 添加者:
 - 添加了钩子 useFetch、useInterval、useTimeout、useFirstMount、useMount、useUnmount。

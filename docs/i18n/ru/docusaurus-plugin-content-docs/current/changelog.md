@@ -4,6 +4,16 @@
 
 ---
 
+### 1.3.0
+Добавлено:
+- Добавлены хуки useGeolocation и useSetState.
+- Добавлены тесты для useGeolocation и useSetState хуков.
+
+Изменено:
+- Обновлен файл readme.md для описания.
+
+---
+
 ### 1.2.0
 Добавлено:
 - Добавлены хуки useFetch, useInterval, useTimeout, useFirstMount, useMount, useUnmount.

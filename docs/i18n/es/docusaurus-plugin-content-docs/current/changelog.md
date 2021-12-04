@@ -4,6 +4,16 @@ Todos los cambios se documentarán en este archivo.
 
 ---
 
+### 1.3.0
+Añadido por:
+- Se agregaron ganchos useGeolocation y useSetState.
+- Se agregaron pruebas para los ganchos useGeolocation y useSetState.
+
+Cambió:
+- Se actualizó el archivo readme.md para obtener una descripción.
+
+---
+
 ### 1.2.0
 Añadido por:
 - Se agregaron ganchos useFetch, useInterval, useTimeout, useFirstMount, useMount, useUnmount.
